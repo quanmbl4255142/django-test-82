@@ -18,5 +18,5 @@ class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
 def health_check(request):
     return JsonResponse({
         'status': 'healthy',
-        'message': 'django_api API is running!'
+        'message': 'django_api API 1.0 is running!'
     })
